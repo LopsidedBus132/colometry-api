@@ -12,7 +12,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:5173',                // frontend local
-      'https://colormetry-front.vercel.app',  // frontend en producción
+      'https://demo-analisis-imagen.netlify.app/',  // frontend en producción
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
